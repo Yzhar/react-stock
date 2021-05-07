@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  background-color: blue;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.green{
+  background-color: rgb(28, 122, 83);
+  padding: 30px;
+  color: rgb(32, 22, 32);
+  font-style:oblique;
+  font-size:1vw;
+}
+.red{
+  background-color: rgb(148, 48, 48);
+  padding: 30px;
+  color: rgb(32, 22, 32);
+  font-style:oblique;
+  font-size:1vw;
+}
+.stock-style{
+border: black;
+}
+.bg {
+background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
